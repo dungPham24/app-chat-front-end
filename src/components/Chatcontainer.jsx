@@ -4,7 +4,6 @@ import ChatInput from "./ChatInput";
 import Logout from "./Logout";
 import axios from "axios";
 import { getAllMessagesRoute, sendMessageRoute } from "../utils/APIRoutes";
-import img from "../acsset/img/279523698_1015667075719012_8904025011329577479_n.png";
 
 const Chatcontainer = ({ currentChat, currentUser, socket }) => {
   const [messages, setMessages] = useState([]);
@@ -109,7 +108,6 @@ const Container = styled.div`
   padding-top: 1rem;
   display: grid;
   grid-template-rows: 10% 78% 12%;
-  background-image: url(${img});
   background-repeat: no-repeat;
   border-radius: 20px;
   width: 100%;
