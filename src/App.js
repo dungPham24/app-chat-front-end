@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import SetAvatar from "./pages/SetAvatar";
 import Chat from "./pages/Chat";
+// import Stickers from "./pages/Stickers";
 
 export default function App() {
   useEffect(() => {
