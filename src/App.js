@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import SetAvatar from "./pages/SetAvatar";
 import Chat from "./pages/Chat";
-import Stickers from "./pages/Stickers";
 
 export default function App() {
   useEffect(() => {
